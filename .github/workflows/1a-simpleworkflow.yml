@@ -1,0 +1,8 @@
+name: 1a-simple workflow
+on: push
+jobs:
+  my-own-job:
+    name: my own job
+    runs-on: windows-latest
+    steps:
+      - run: echo "hello world in windows"
